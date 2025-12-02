@@ -1,0 +1,15 @@
+{"level":"info","message":"hello from Aquasitions","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [30/Nov/2025:15:01:24 +0000] \"GET / HTTP/1.1\" 200 12 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [30/Nov/2025:15:01:24 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [01/Dec/2025:14:13:48 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.50.0\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Dec/2025:05:56:18 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 91 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Dec/2025:05:56:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 91 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User chandan@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"error","message":"Signup error jwttoken is not defined","service":"acquisitions-api","stack":"ReferenceError: jwttoken is not defined\n    at signup (file:///C:/Users/91690/Desktop/p_ready-api/Aquisition/src/controllers/auth.controller.js:25:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"::1 - - [02/Dec/2025:05:56:55 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 385 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"acquisitions-api"}
+{"level":"error","message":"Signup error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///C:/Users/91690/Desktop/p_ready-api/Aquisition/src/service/auth.service.js:34:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signup (file:///C:/Users/91690/Desktop/p_ready-api/Aquisition/src/controllers/auth.controller.js:23:18)"}
+{"level":"info","message":"::1 - - [02/Dec/2025:05:57:43 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 31 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User chandan1@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: chandan1@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [02/Dec/2025:05:57:54 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 105 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
