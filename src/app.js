@@ -5,7 +5,7 @@ import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
 
 import authRouter from "#routes/authRoutes.js"
-import { timestamp } from 'drizzle-orm/gel-core';
+import securityMiddleware from '#middleware/security.middleware.js';
 
 const app = express();
 
@@ -15,6 +15,8 @@ app.use(express.urlencoded({extended:true}))
 app.use(cookieParser())
 
 app.use(morgan("combined",{stream:{write:(message)=>logger.info(message.trim())}}))
+// app.use(securityMiddleware)
+
 
 app.get('/',(req, res) => {
   logger.info("hello from Aquasitions")
